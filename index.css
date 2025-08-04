@@ -144,3 +144,28 @@ thead { background-color: #f8f9fa; }
 
 #loading-message { font-size: 1.5em; color: var(--mario-blue); padding: 2em; }
 footer { margin-top: 2em; padding: 1.5em; color: #777; }
+
+.table-container, table {
+    width: 100%;
+    overflow-x: auto;
+}
+table {
+    border-collapse: collapse;
+    min-width: 600px;
+}
+th, td {
+    padding: 15px;
+    border: 1px solid #333;
+    vertical-align: top;
+}
+td.normal { color: var(--luigi-green); font-weight: bold; }
+td.reverse { color: var(--mario-red); font-weight: bold; }
+
+section {
+    padding-bottom: 5%;
+}
+
+a {
+    text-decoration: none;
+    text-decoration-color: none;
+}
